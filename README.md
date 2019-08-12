@@ -11,7 +11,7 @@ The enviroment comes from Unity, please read the Unity Environment, before makin
 Clone the repository, install the Unity Enviroment and start with ExperienceManager.py (update UNITY_ENVIROMENT before run)
 
 ### Enviroment description
-**You can see trained Wimbledon in action [here](https://www.youtube.com/watch?v=lie4xXOuJL4)**
+**You can see trained Wimbledon in action [here](http://www.youtube.com/watch?v=dURosRy9zOY)**
 
 This environment, two agents control rackets to bounce a ball over a net. If an agent hits the ball over the net, it receives a reward of +0.1. If an agent lets a ball hit the ground or hits the ball out of bounds, it receives a reward of -0.01. Thus, the goal of each agent is to keep the ball in play.
 
