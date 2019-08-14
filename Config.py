@@ -10,7 +10,7 @@ class Config:
         self.env= None
         self.warm_up = 0
 
-        self.memory_buffer_size = 100000
+        self.memory_buffer_size = 1000000
         self.memory_batch_size = 512
         self.seed = 2
         self.memory = None
@@ -24,9 +24,9 @@ class Config:
 
         self.noise = True
 
-        self.policy_freg_update = 3
+        self.policy_freg_update = 15
         self.polyak_tau = 0.001
-        self.learn_every = 5
+        self.learn_every = 15
 
         self.discount = 0.991
 
